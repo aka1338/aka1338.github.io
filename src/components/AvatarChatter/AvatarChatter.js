@@ -6,6 +6,7 @@ function AvatarChatter() {
 
         <div className="text">
         This is not working as intended, yet.
+        Hello!
         </div>
     );
 }

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh; 
+}
+
+.one {
+    background: black; 
+}
+
+.one h1 {
+    color: white;
+}
+
+.two {
+    background: white; 
+    justify-content: left;
+}
+
+
+.three {
+    background: red; 
+}
+
+
+.four {
+    background: black; 
+}
+
+.four h1 {
+    color: whitesmoke; 
+}

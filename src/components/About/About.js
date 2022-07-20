@@ -1,10 +1,12 @@
 import react from 'react';
+import './About.styles.scss'
 
-const About = () => {
+function About() {
     return (
-        <div> About </div>
-    )
+        <div className='text'>
+            About
+        </div>
+    ); 
 
 }
-
 export default About; 

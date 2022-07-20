@@ -1,8 +1,9 @@
 import logo from '../../logo.svg';
 import './App.styles.scss';
 import SideNav from '../SideNav';
-// TODO: Implement AvatarChatter component 
 import AvatarChatter from '../AvatarChatter';
+import About from '../About/About';
+import Blog from '../Blog';
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
         <SideNav />
       </section>
       <section className='three'>
-        <h1> Third Page </h1>
+        <Blog /> 
       </section>
       <section className='four'>
-        <h1> Love love love</h1>
+        <About />
       </section>
     </div>
   );

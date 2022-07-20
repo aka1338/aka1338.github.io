@@ -16,10 +16,9 @@ let speed = 100; /* The speed/duration of the effect in milliseconds */
 let quoteState = 0; 
 function AvatarChatter() {
     return (
-
-        <div className="text">
+        <div className="chatter-text">
             {DisplayQuote()}
-        <button onClick={ChangeQuote()}> New Quote</button>
+        <button onClick={ChangeQuote()}>New Quote</button>
         </div>
     );
 }
